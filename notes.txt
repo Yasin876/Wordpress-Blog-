@@ -1,0 +1,7 @@
+standart pagination 
+
+  <div class="row">
+              <div class="pages col-md-6 text-left"> <?php previous_posts_link( '<<previous posts' ); ?> </div>
+              <div class="pages col-md-6 text-right"> <?php next_posts_link( 'next posts>>' ); ?>  </div>
+              
+   </div>
